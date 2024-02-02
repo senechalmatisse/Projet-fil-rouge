@@ -1,2 +1,3 @@
 # Projet-fil-rouge
-Il était question de construire incrémentalement un site web conformément à l'architecture MVCR.
+
+ L'exercice consistait en l'application directe de l'architecture MVCR pour la manipulation des données, en créeant incrémentalement un site web.

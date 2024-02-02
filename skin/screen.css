@@ -1,0 +1,61 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	max-width: 60em;
+	margin: auto;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.liste {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.liste a {
+	display: flex;
+	max-width: 20em;
+	border: 1px solid black;
+	text-decoration: none;
+	color: inherit;
+	padding: .5em;
+	align-items: center;
+	margin: .2em;
+}
+
+.liste a:hover {
+	box-shadow: inset 0px 0px 1px 1px grey;
+}
+
+.liste h3 {
+	margin: .5em;
+}
+
+input::invalid {
+	border: 1px solid red;
+}
+
+label .error {
+	color: red;
+	font-weight: bold;
+}
+
+.feedback {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: crimson;
+	border-radius: 1em;
+	margin: 1em auto;
+	max-width: 90%;
+	padding: .5em;
+}
